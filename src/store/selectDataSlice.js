@@ -43,6 +43,7 @@ export const selectData = (group, allTickets, orderValue) => async (dispatch) =>
                     [index]: {
                         title: element,
                         value: arr,
+                        priority: index,
                     },
                 });
             });

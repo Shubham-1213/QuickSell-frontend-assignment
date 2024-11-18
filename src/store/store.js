@@ -8,7 +8,7 @@ import selectDataSlice from './selectDataSlice';
 const dataPersistConfig = {
     key: 'data',
     storage,
-    whitelist: ['allTickets', 'allUser'], // Specify keys to persist
+    whitelist: ['allTickets', 'allUser', 'group', 'order'], // Specify keys to persist
 };
 
 const selectDataPersistConfig = {

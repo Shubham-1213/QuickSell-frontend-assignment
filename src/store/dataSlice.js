@@ -43,9 +43,19 @@ const dataSlice = createSlice({
     updateOrder: (state, action) => {
       state.order = action.payload; // Update order value
     },
+    // Remove card action
+    removeCard: (state, action) => {
+      state.allTickets = state.allTickets.filter((card) => card.id !== action.payload);
+    },
+    // Update card action
+    updateCard: (state, action) => {
+      state.allTickets = state.allTickets.map((card) =>
+        card.id === action.payload.id ? action.payload : card
+      );
+    },
   },
 });
 
-export const { updateGroup, updateOrder } = dataSlice.actions;
+export const { updateGroup, updateOrder, removeCard, updateCard } = dataSlice.actions;
 
 export default dataSlice.reducer;

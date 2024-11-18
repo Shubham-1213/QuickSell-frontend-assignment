@@ -1,13 +1,14 @@
 
 import './App.css'
-import Loader from './Components/Loader/Loader'
 import Navbar from './Components/Navbar/Navbar'
+import Dashboard from './Components/Dashboard/Dashboard'
 
 function App() {
+
  return (
     <div className="App">
       <Navbar />
-      <Loader />
+      <Dashboard/>
     </div>
  )
 }

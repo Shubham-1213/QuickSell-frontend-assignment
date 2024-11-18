@@ -1,9 +1,14 @@
 
 import './App.css'
+import Loader from './Components/Loader/Loader'
+import Navbar from './Components/Navbar/Navbar'
 
 function App() {
  return (
-  <h1>React</h1>
+    <div className="App">
+      <Navbar />
+      <Loader />
+    </div>
  )
 }
 

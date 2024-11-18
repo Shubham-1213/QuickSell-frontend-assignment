@@ -9,7 +9,7 @@ import Add from "../../assets/add.svg";
 import InProgress from "../../assets/in-progress.svg";
 import Todo from "../../assets/To-do.svg";
 import Backlog from "../../assets/Backlog.svg";
-import "./DashBoard.css";
+import "./Dashboard.css";
 import HiPriority from "../../assets/Img - High Priority.svg";
 import LowPriority from "../../assets/Img - Low Priority.svg";
 import MedPriority from "../../assets/Img - Medium Priority.svg";

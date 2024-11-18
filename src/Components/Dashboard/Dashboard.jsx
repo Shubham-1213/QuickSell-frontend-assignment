@@ -13,7 +13,7 @@ import "./Dashboard.css";
 import HiPriority from "../../assets/Img - High Priority.svg";
 import LowPriority from "../../assets/Img - Low Priority.svg";
 import MedPriority from "../../assets/Img - Medium Priority.svg";
-import NoPriority from "../../assets/No-Priority.svg";
+import NoPriority from "../../assets/No-priority.svg";
 import Urgent from "../../assets/SVG - Urgent Priority colour.svg";
 import Card from "../Card/Card";
 

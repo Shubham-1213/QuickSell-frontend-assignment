@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Display from "../../assets/Display.svg";
-import "./NavBar.css";
+import "./Navbar.css";
 import { useSelector, useDispatch } from "react-redux";
 import { selectData } from "../../store/selectDataSlice";
 import { updateGroup, updateOrder } from "../../store/dataSlice";

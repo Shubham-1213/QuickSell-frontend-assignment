@@ -1,21 +1,21 @@
 import  { useEffect } from "react";
 import { useSelector } from "react-redux";
-import Done from "../../assets/Done.svg";
-import Cancelled from "../../assets/Cancelled.svg";
 import { useDispatch } from "react-redux";
 import { fetchAllData } from "../../store/dataSlice";
+import "./Dashboard.css";
+import Card from "../Card/Card";
+import HiPriority from "../../assets/HighPriority.svg";
+import LowPriority from "../../assets/LowPriority.svg";
+import MedPriority from "../../assets/MedPriority.svg";
+import NoPriority from "../../assets/NoPriority.svg";
+import Urgent from "../../assets/Urgent.svg";
 import profile from "../../assets/p.png";
 import Add from "../../assets/add.svg";
 import InProgress from "../../assets/in-progress.svg";
 import Todo from "../../assets/To-do.svg";
 import Backlog from "../../assets/Backlog.svg";
-import "./Dashboard.css";
-import HiPriority from "../../assets/Img - High Priority.svg";
-import LowPriority from "../../assets/Img - Low Priority.svg";
-import MedPriority from "../../assets/Img - Medium Priority.svg";
-import NoPriority from "../../assets/No-priority.svg";
-import Urgent from "../../assets/SVG - Urgent Priority colour.svg";
-import Card from "../Card/Card";
+import Done from "../../assets/Done.svg";
+import Cancelled from "../../assets/Cancelled.svg";
 
 const DashBoard = () => {
   // Get group and order values from Redux store

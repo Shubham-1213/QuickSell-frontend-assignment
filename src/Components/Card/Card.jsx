@@ -1,15 +1,14 @@
 import "./Card.css";
 import { useSelector } from "react-redux";
-
 import InProgress from "../../assets/in-progress.svg";
 import Done from "../../assets/Done.svg";
 import Todo from "../../assets/To-do.svg";
 import Backlog from "../../assets/Backlog.svg";
-import HiPriority from "../../assets/Img - High Priority.svg";
-import LowPriority from "../../assets/Img - Low Priority.svg";
-import MedPriority from "../../assets/Img - Medium Priority.svg";
-import NoPriority from "../../assets/No-priority.svg";
-import UrgentGrey from "../../assets/SVG - Urgent Priority grey.svg";
+import HiPriority from "../../assets/HighPriority.svg";
+import LowPriority from "../../assets/LowPriority.svg";
+import MedPriority from "../../assets/MedPriority.svg";
+import NoPriority from "../../assets/NoPriority.svg";
+import UrgentGrey from "../../assets/Urgent.svg";
 import Profile from "../../assets/p.png";
 
 const Card = ({ id, title, tag, status, priority }) => {

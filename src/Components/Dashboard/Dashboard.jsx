@@ -8,7 +8,7 @@ import HiPriority from "../../assets/HighPriority.svg";
 import LowPriority from "../../assets/LowPriority.svg";
 import MedPriority from "../../assets/MedPriority.svg";
 import NoPriority from "../../assets/NoPriority.svg";
-import Urgent from "../../assets/Urgent.svg";
+import Urgent from "../../assets/Urgent_Color.svg";
 import profile from "../../assets/p.png";
 import Add from "../../assets/add.svg";
 import InProgress from "../../assets/in-progress.svg";
